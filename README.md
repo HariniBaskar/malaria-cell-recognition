@@ -12,6 +12,13 @@ Traditional methods of malaria diagnosis involve manual inspection of blood smea
 
 Our dataset comprises 27,558 cell images, evenly split between parasitized and uninfected cells. These images have been meticulously collected and annotated by medical experts, making them a reliable source for training and testing our deep neural network.
 
+## DATASET:
+![image](https://github.com/HariniBaskar/malaria-cell-recognition/assets/93427253/2509d928-6d33-499d-8f84-9eaa85ccba4b)
+
+## NEURAL NETWORK MODEL:
+![image](https://github.com/HariniBaskar/malaria-cell-recognition/assets/93427253/998ec865-6d97-45dc-9086-382f0fb5b7dd)
+
+
 ## DESIGN STEPS
 
 ### STEP 1:
@@ -42,13 +49,12 @@ We evaluate the trained model's performance using the testing data, generating a
 ### STEP 9:
 We demonstrate the model's practical use by randomly selecting and testing a new cell image for classification.
 
-
-Write your own steps
-
 ## PROGRAM
-Developed By: HariniBaskar
+```
+Developed By: Harini B.
+Register Number: 212221230035
+```
 
-Register No: 212221230035
 ```
 import os
 import pandas as pd
@@ -176,23 +182,21 @@ plt.show()
 
 ### Training Loss, Validation Loss Vs Iteration Plot
 
-![image](https://github.com/Kishore00007/malaria-cell-recognition/assets/94233985/ce2d2d94-dd35-4df0-bf91-9561b4536a3b)
-![image](https://github.com/Kishore00007/malaria-cell-recognition/assets/94233985/447ca69e-3330-4056-9d21-eefe31e7bc85)
-
+![image](https://github.com/HariniBaskar/malaria-cell-recognition/assets/93427253/2607db65-32ab-4917-9560-4ae3ab562cf6)
 
 ### Classification Report
 
-![image](https://github.com/Kishore00007/malaria-cell-recognition/assets/94233985/2a0917f0-a49e-458c-aa65-79b0d53230db)
+![image](https://github.com/HariniBaskar/malaria-cell-recognition/assets/93427253/7d01f838-f841-4a6a-a2da-95deb74daaef)
 
 
 ### Confusion Matrix
 
-![image](https://github.com/Kishore00007/malaria-cell-recognition/assets/94233985/0cfaf2e1-7244-4fe8-8162-ae71a593ba2e)
+![image](https://github.com/HariniBaskar/malaria-cell-recognition/assets/93427253/bfea669d-ab1e-4ce9-82ce-c22b6533e026)
 
 
 ### New Sample Data Prediction
 
-![image](https://github.com/Kishore00007/malaria-cell-recognition/assets/94233985/9ebcd4b8-6d00-4cb5-a937-63b44966c594)
+![image](https://github.com/HariniBaskar/malaria-cell-recognition/assets/93427253/7a361ae1-90ae-42e8-a8ca-330aab6d3049)
 
 
 ## RESULT
